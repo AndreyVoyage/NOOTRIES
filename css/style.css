@@ -1,0 +1,67 @@
+@import url(./import.css);
+
+/* ***** Базовый Сброс ***** */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    font-style: normal;
+  
+    background: #ffffff;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  /* ***** СБРОС СТИЛЕЙ ***** */
+.m0 {
+    margin: 0;
+  }
+  
+  .margin-block-0 {
+    margin-block: 0;
+  }
+  
+
+  .list-style-none {
+    list-style: none;
+  }
+  
+  /* ***** ОБЩИЕ СТИЛИ ***** */
+  .main, .header {
+    overflow: hidden;
+  } 
+  
+  .btn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 54px;
+    padding-right: 54px;
+  
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+  }
+
+  /* ** ЗАГОЛОВКИ СЕКЦИЙ ** */
+  .second-title { 
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+  }
+  
+  .desc { /* ** ПАРАГРАФ ** */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  

@@ -1,0 +1,160 @@
+.about { 
+    padding-top: 110px;
+    padding-bottom: 112px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #000000;  
+}
+
+.about-container.about-container {
+    padding-left: 176px;
+    padding-right: 176px;
+}
+
+.about__title, .about__title-sale {
+    margin-block: 0;
+}
+
+.about__title, .about__title-sale {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    
+    color: #FCB500;
+}
+
+.about__title-sale {
+    margin-bottom: 80px;
+    
+    color: #ffffff;
+}
+.about__price {
+    margin-bottom: 50px;
+}
+
+.about__price-one {
+    margin-right: 55px;
+    
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Grey */
+
+    color: #ADADAD;
+    text-decoration: line-through;
+}
+.about__price-two {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+.about__pictures {
+    margin-bottom: 64px;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+.about__orange {
+    color: #FCB500;
+}
+
+.about__pictures-ginger, .about__pictures-virus, .about__pictures-nootries {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+
+.about__pictures-ginger {
+    padding-top: 0px;
+}
+
+.about__pictures-desc {
+    margin-block: 0;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    /* White */
+    width: 192px;
+    color: #FFFFFF;
+}
+
+.about__pictures-img {
+    margin-bottom: 35px;
+    transition: transform ease-in-out .3s;
+}
+
+.about__pictures-img:hover {
+    transform: scale(1.2);
+}
+
+.about__pictures-nootris--desc {
+    margin-block: 0;
+    
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.about__pictures-virus {
+    padding-top: 7px;
+}
+
+.about__button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background: #FCB500;
+    border-radius: 7px;
+    color: #000000;
+    transition: transform ease-in-out .3s;
+}
+
+.about__button:hover {
+    transform: scale(1.1);
+}
+
+.about__button:active {
+    transform: scale(0.9);
+}

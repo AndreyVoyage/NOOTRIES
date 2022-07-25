@@ -1,0 +1,111 @@
+  /* ** ОБЩИЙ КОНТЕЙНЕР ** */
+  .container {  
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  
+  /* ***** НАВ МЕНЮ ***** */
+.header {
+    min-height: 80px;
+    background: #111111;
+    align-items: center;
+  }
+  
+.flex {
+    display: flex;
+  }
+
+.header__link, .header__tel-link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+
+    color: #ffffff;
+}
+
+.burger {
+    display: none;
+}
+
+.logo {
+    margin-right: 104px;
+    
+    width: 120px;
+}
+
+.logo img {
+    width: 100%;
+    transition: all ease-in .3s;
+}
+
+.logo img:hover {
+    width: 120%;
+}
+
+.header__list {
+    padding-left: 0;
+}
+.header__item {
+    margin-right: 48px;
+}
+
+.header__item:last-child {
+    margin-right: 44px;
+}
+
+.header__link {
+    transition: color .3s;
+}
+
+.header__link:hover {
+    color: #FCB500;
+}
+
+.header__tel {
+    margin-right: 85px;
+
+    transition: color .3s;
+}
+
+.header__tel-link:hover {
+    color: #FCB500; 
+}
+
+.header__basket {
+    position: relative;
+    cursor: pointer;
+}
+
+.header__basket img:hover {
+    transform: rotate(20deg);
+}
+
+.header__basket img {
+    position: relative;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+}
+
+.header__basket-number {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    position: absolute;
+
+    width: 16px;
+    height: 16px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    border-radius: 45%;
+    background: #FCB500;
+    color: #000000;
+
+    top: 19px;
+    right: -5px;
+}
